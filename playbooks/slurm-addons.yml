@@ -1,0 +1,4 @@
+---
+# Install Singularity
+- include: container/singularity.yml
+  when: slurm_cluster_install_singularity|default(true)

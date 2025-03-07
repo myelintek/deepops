@@ -11,6 +11,7 @@ slurm_build_deps:
   - python3-minimal
   - ruby-dev
   - wget
+  - libnvidia-ml-dev
 
 slurm_pmix_deps:
   - build-essential
